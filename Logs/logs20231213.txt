@@ -1,0 +1,25 @@
+2023-12-13 19:32:19.841 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-13 19:32:23.068 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-13 19:32:23.073 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-13 19:32:23.204 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 19:32:23.213 +05:30 [INF] Hosting environment: Development
+2023-12-13 19:32:23.222 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-13 19:32:35.791 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-13 19:32:36.871 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 1003.9334ms
+2023-12-13 19:32:37.211 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-13 19:32:40.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-13 19:32:40.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-13 19:32:40.036 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2824.4142ms
+2023-12-13 19:32:40.040 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-13 19:32:40.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-13 19:32:40.144 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-13 19:32:40.301 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 158.6445ms
+2023-12-13 19:32:40.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 290.3939ms
+2023-12-13 19:32:40.982 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-13 19:32:40.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 959.4709ms
+2023-12-13 19:32:41.047 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-13 19:32:41.051 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 1021.2372ms
+2023-12-13 19:32:41.053 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-13 19:32:41.056 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1015.7117ms
+2023-12-13 19:32:41.443 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-13 19:32:42.509 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1063.3125ms

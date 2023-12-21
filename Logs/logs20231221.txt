@@ -1,0 +1,249 @@
+2023-12-21 13:06:40.954 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-21 13:06:42.120 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-21 13:06:42.222 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-21 13:06:42.226 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 13:06:42.234 +05:30 [INF] Hosting environment: Development
+2023-12-21 13:06:42.249 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-21 13:08:58.263 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-21 13:08:59.584 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-21 13:08:59.773 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 1106.6833ms
+2023-12-21 13:09:10.795 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 11211.2066ms
+2023-12-21 13:09:14.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-21 13:09:14.590 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-21 13:09:14.648 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-21 13:09:14.650 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 381.7613ms
+2023-12-21 13:09:15.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-21 13:09:15.331 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-21 13:09:15.331 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-21 13:09:15.350 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 19.6172ms
+2023-12-21 13:09:17.848 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-21 13:09:17.854 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 2523.8637ms
+2023-12-21 13:09:18.579 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-21 13:09:18.581 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 3991.3513ms
+2023-12-21 13:09:20.306 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4975.3037ms
+2023-12-21 13:09:23.189 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-21 13:09:23.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-21 13:09:23.544 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-21 13:09:23.546 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 4.8824ms
+2023-12-21 13:09:25.723 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2533.8925ms
+2023-12-21 13:15:58.917 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-21 13:16:00.161 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-21 13:16:00.164 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-21 13:16:00.168 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 13:16:00.169 +05:30 [INF] Hosting environment: Development
+2023-12-21 13:16:00.170 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-21 13:16:08.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-21 13:16:09.661 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 1480.8108ms
+2023-12-21 13:16:10.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-21 13:16:13.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2945.2232ms
+2023-12-21 13:16:13.122 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-21 13:16:13.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-21 13:16:13.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-21 13:16:13.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-21 13:16:13.278 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-21 13:16:13.279 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-21 13:16:13.288 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 166.1793ms
+2023-12-21 13:16:13.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 186.0062ms
+2023-12-21 13:16:13.313 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-21 13:16:13.332 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 18.7368ms
+2023-12-21 13:16:13.351 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 216.6112ms
+2023-12-21 13:16:13.670 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-21 13:16:13.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 549.6671ms
+2023-12-21 13:16:14.059 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-21 13:16:15.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1571.2782ms
+2023-12-21 13:16:23.662 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Country - -
+2023-12-21 13:16:23.673 +05:30 [INF] Executing endpoint 'WorldAPI.Controllers.CountryController.GetAll (WorldAPI)'
+2023-12-21 13:16:24.057 +05:30 [INF] Route matched with {action = "GetAll", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WorldAPI.DTO.Country.CountryDto]]] GetAll() on controller WorldAPI.Controllers.CountryController (WorldAPI).
+2023-12-21 13:16:47.467 +05:30 [INF] Executed DbCommand (597ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CountryCode], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2023-12-21 13:16:47.875 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WorldAPI.Models.Country, WorldAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-21 13:16:47.952 +05:30 [INF] Executed action WorldAPI.Controllers.CountryController.GetAll (WorldAPI) in 23863.3614ms
+2023-12-21 13:16:47.956 +05:30 [INF] Executed endpoint 'WorldAPI.Controllers.CountryController.GetAll (WorldAPI)'
+2023-12-21 13:16:47.968 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Country - - - 200 - application/json;+charset=utf-8 24305.4946ms
+2023-12-21 13:16:57.763 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/api/States - -
+2023-12-21 13:16:57.769 +05:30 [INF] Executing endpoint 'WorldAPI.Controllers.StatesController.GetAll (WorldAPI)'
+2023-12-21 13:16:57.778 +05:30 [INF] Route matched with {action = "GetAll", controller = "States"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WorldAPI.DTO.States.StatesDto]]] GetAll() on controller WorldAPI.Controllers.StatesController (WorldAPI).
+2023-12-21 13:16:57.995 +05:30 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[CountryId], [s].[Name], [s].[Population]
+FROM [States] AS [s]
+2023-12-21 13:16:58.026 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WorldAPI.Models.States, WorldAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-21 13:16:58.070 +05:30 [INF] Executed action WorldAPI.Controllers.StatesController.GetAll (WorldAPI) in 286.378ms
+2023-12-21 13:16:58.086 +05:30 [INF] Executed endpoint 'WorldAPI.Controllers.StatesController.GetAll (WorldAPI)'
+2023-12-21 13:16:58.096 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/api/States - - - 200 - application/json;+charset=utf-8 333.7518ms
+2023-12-21 14:14:50.764 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-21 14:14:51.359 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-21 14:14:51.363 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-21 14:14:51.366 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 14:14:51.367 +05:30 [INF] Hosting environment: Development
+2023-12-21 14:14:51.368 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-21 14:14:57.411 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-21 14:14:58.006 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 598.3847ms
+2023-12-21 14:14:58.317 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-21 14:14:59.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-21 14:14:59.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-21 14:14:59.994 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 1677.4045ms
+2023-12-21 14:14:59.994 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-21 14:15:00.022 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-21 14:15:00.027 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-21 14:15:00.063 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 35.6813ms
+2023-12-21 14:15:00.085 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-21 14:15:00.088 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 101.8006ms
+2023-12-21 14:15:00.132 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-21 14:15:00.147 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 152.4884ms
+2023-12-21 14:15:00.148 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 125.1026ms
+2023-12-21 14:15:00.433 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-21 14:15:00.441 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 455.0433ms
+2023-12-21 14:15:00.718 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-21 14:15:01.578 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 860.2164ms
+2023-12-21 16:43:54.390 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-21 16:43:57.572 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-21 16:43:57.651 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-21 16:43:57.655 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 16:43:57.657 +05:30 [INF] Hosting environment: Development
+2023-12-21 16:43:57.658 +05:30 [INF] Content root path: C:\Users\Kevin\Documents\projectss\WorldAPI\WorldAPI
+2023-12-21 16:44:20.320 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-21 16:44:20.946 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 599.1317ms
+2023-12-21 16:44:21.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-21 16:44:24.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-21 16:44:24.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-21 16:44:24.015 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-21 16:44:24.018 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2824.1655ms
+2023-12-21 16:44:24.173 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-21 16:44:24.175 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 161.6372ms
+2023-12-21 16:44:24.234 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-21 16:44:24.281 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 47.2021ms
+2023-12-21 16:44:24.343 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-21 16:44:24.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 329.3730ms
+2023-12-21 16:44:25.362 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-21 16:44:25.365 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 1351.4630ms
+2023-12-21 16:44:25.868 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-21 16:44:26.919 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1050.8838ms
+2023-12-21 16:45:19.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Country - -
+2023-12-21 16:45:19.481 +05:30 [INF] Executing endpoint 'WorldAPI.Controllers.CountryController.GetAll (WorldAPI)'
+2023-12-21 16:45:20.255 +05:30 [INF] Route matched with {action = "GetAll", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WorldAPI.DTO.Country.CountryDto]]] GetAll() on controller WorldAPI.Controllers.CountryController (WorldAPI).
+2023-12-21 16:46:03.523 +05:30 [ERR] An error occurred using the connection to database 'Apicall' on server 'KNILA-PC\SQLEXPRESS03'.
+2023-12-21 16:46:06.875 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'WorldAPI.Data.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=9688; handshake=179; [Login] initialization=3; authentication=215; [Post-Login] complete=5007; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f58608ec-5b01-4fe4-bf1e-8496a5be876d
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=9688; handshake=179; [Login] initialization=3; authentication=215; [Post-Login] complete=5007; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f58608ec-5b01-4fe4-bf1e-8496a5be876d
+Error Number:-2,State:0,Class:11
+2023-12-21 16:46:14.903 +05:30 [INF] Executed action WorldAPI.Controllers.CountryController.GetAll (WorldAPI) in 54640.3103ms
+2023-12-21 16:46:14.996 +05:30 [INF] Executed endpoint 'WorldAPI.Controllers.CountryController.GetAll (WorldAPI)'
+2023-12-21 16:46:15.204 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=9688; handshake=179; [Login] initialization=3; authentication=215; [Post-Login] complete=5007; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WorldAPI.Repository.GenericRepository`1.GetAll() in C:\Users\Kevin\Documents\projectss\WorldAPI\WorldAPI\Repository\GenericRepository.cs:line 36
+   at WorldAPI.Controllers.CountryController.GetAll() in C:\Users\Kevin\Documents\projectss\WorldAPI\WorldAPI\Controllers\CountryController.cs:line 33
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:f58608ec-5b01-4fe4-bf1e-8496a5be876d
+Error Number:-2,State:0,Class:11
+2023-12-21 16:46:15.820 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Country - - - 500 - text/plain;+charset=utf-8 56364.6031ms

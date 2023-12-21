@@ -1,0 +1,1330 @@
+2023-12-18 10:49:13.666 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 10:49:14.890 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 10:49:14.895 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 10:49:14.900 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 10:49:14.903 +05:30 [INF] Hosting environment: Development
+2023-12-18 10:49:14.904 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 10:50:20.751 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 10:50:21.096 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 324.5263ms
+2023-12-18 10:50:21.621 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 10:50:25.411 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 10:50:25.411 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 10:50:25.425 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 3804.0875ms
+2023-12-18 10:50:25.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 10:50:25.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 10:50:25.743 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 189.8106ms
+2023-12-18 10:50:25.858 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 10:50:25.863 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 452.5895ms
+2023-12-18 10:50:26.318 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 10:50:26.321 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 767.7275ms
+2023-12-18 10:50:26.893 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 10:50:26.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 1484.5302ms
+2023-12-18 10:50:27.200 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 10:50:27.245 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-18 10:50:27.248 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-18 10:50:27.251 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 6.2971ms
+2023-12-18 10:50:28.057 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 856.4656ms
+2023-12-18 12:42:18.784 +05:30 [INF] User profile is available. Using 'C:\Users\Kevin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 12:42:20.537 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 12:42:20.754 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 12:42:20.757 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 12:42:20.760 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 12:42:20.762 +05:30 [INF] Hosting environment: Development
+2023-12-18 12:42:20.763 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 12:42:27.100 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 12:47:28.372 +05:30 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-18 12:47:28.915 +05:30 [INF] Executed DbCommand (204ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-18 12:47:28.920 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-18 12:47:28.922 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-18 12:47:31.891 +05:30 [INF] Executed DbCommand (2,889ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-12-18 13:01:14.040 +05:30 [INF] Executed DbCommand (148ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-18 13:01:14.776 +05:30 [INF] Executed DbCommand (112ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-18 13:01:14.819 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-18 13:01:14.867 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-18 13:01:16.473 +05:30 [INF] Executed DbCommand (1,491ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-12-18 13:01:17.018 +05:30 [INF] Applying migration '20231218072844_Login'.
+2023-12-18 13:01:20.953 +05:30 [INF] Executed DbCommand (2,587ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [login] (
+    [UserName] nvarchar(450) NOT NULL,
+    [Password] nvarchar(max) NULL,
+    CONSTRAINT [PK_login] PRIMARY KEY ([UserName])
+);
+2023-12-18 13:01:21.580 +05:30 [INF] Executed DbCommand (625ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231218072844_Login', N'7.0.14');
+2023-12-18 13:05:56.225 +05:30 [INF] User profile is available. Using 'C:\Users\Kevin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 13:05:59.212 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 13:05:59.498 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 13:05:59.577 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 13:05:59.580 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 13:05:59.581 +05:30 [INF] Hosting environment: Development
+2023-12-18 13:05:59.582 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 13:06:07.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:06:42.332 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options) in C:\Users\Kevin\source\repos\WorldAPI\WorldAPI\Program.cs:line 54
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:06:52.424 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 44890.4041ms
+2023-12-18 13:06:53.056 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:06:53.057 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:06:53.181 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 124.2375ms
+2023-12-18 13:07:01.040 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7984.1497ms
+2023-12-18 13:07:01.706 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:07:01.719 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options) in C:\Users\Kevin\source\repos\WorldAPI\WorldAPI\Program.cs:line 54
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:07:01.913 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 207.1939ms
+2023-12-18 13:53:56.346 +05:30 [INF] User profile is available. Using 'C:\Users\Kevin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 13:53:57.360 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 13:53:57.448 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 13:53:57.452 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 13:53:57.456 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 13:53:57.457 +05:30 [INF] Hosting environment: Development
+2023-12-18 13:53:57.458 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 13:53:59.292 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:55:19.497 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options) in C:\Users\Kevin\source\repos\WorldAPI\WorldAPI\Program.cs:line 54
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:55:21.338 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 82051.9123ms
+2023-12-18 13:55:21.624 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:55:21.625 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:55:21.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 44.0985ms
+2023-12-18 13:55:21.796 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 171.7771ms
+2023-12-18 13:55:21.876 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:55:21.883 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options) in C:\Users\Kevin\source\repos\WorldAPI\WorldAPI\Program.cs:line 54
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:55:21.902 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 25.7263ms
+2023-12-18 13:57:02.919 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:02.939 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:02.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 73.5510ms
+2023-12-18 13:57:03.101 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:03.101 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:03.106 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 5.3554ms
+2023-12-18 13:57:03.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.4441ms
+2023-12-18 13:57:03.375 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:03.380 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:03.401 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 26.6895ms
+2023-12-18 13:57:04.324 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:04.330 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:04.469 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 144.7794ms
+2023-12-18 13:57:04.484 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:04.484 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:04.497 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 13.1754ms
+2023-12-18 13:57:04.569 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 85.4150ms
+2023-12-18 13:57:04.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:04.666 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:04.680 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 16.7059ms
+2023-12-18 13:57:05.035 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:05.047 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:05.099 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 63.7763ms
+2023-12-18 13:57:05.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:05.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:05.125 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 9.2269ms
+2023-12-18 13:57:05.221 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 105.1973ms
+2023-12-18 13:57:05.249 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:05.253 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:05.284 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 35.3359ms
+2023-12-18 13:57:05.361 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:05.378 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:05.430 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 68.3947ms
+2023-12-18 13:57:05.434 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:05.434 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:05.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 20.7188ms
+2023-12-18 13:57:05.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.6524ms
+2023-12-18 13:57:05.569 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:05.575 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:05.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 22.7208ms
+2023-12-18 13:57:05.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:05.781 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:05.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 51.6002ms
+2023-12-18 13:57:05.861 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:05.862 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:05.867 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 3.9731ms
+2023-12-18 13:57:05.918 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.8133ms
+2023-12-18 13:57:05.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:05.954 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:05.998 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 49.5043ms
+2023-12-18 13:57:06.047 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:06.051 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:06.099 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 52.1836ms
+2023-12-18 13:57:06.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:06.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:06.129 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 19.1970ms
+2023-12-18 13:57:06.192 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.0442ms
+2023-12-18 13:57:06.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:06.250 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:06.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 49.8741ms
+2023-12-18 13:57:06.507 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:06.517 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:06.566 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 59.1193ms
+2023-12-18 13:57:06.573 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:06.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:06.582 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 6.8381ms
+2023-12-18 13:57:06.627 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.5179ms
+2023-12-18 13:57:06.652 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:06.658 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:06.689 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 36.5652ms
+2023-12-18 13:57:06.879 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:06.882 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:06.930 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 50.8318ms
+2023-12-18 13:57:06.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:06.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:06.959 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 12.7366ms
+2023-12-18 13:57:07.144 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 198.5628ms
+2023-12-18 13:57:07.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:07.178 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:07.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 30.8008ms
+2023-12-18 13:57:07.629 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:07.638 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:07.683 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 54.2453ms
+2023-12-18 13:57:07.693 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:07.693 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:07.699 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 5.5251ms
+2023-12-18 13:57:07.758 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.2324ms
+2023-12-18 13:57:07.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:07.866 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:07.882 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 18.4895ms
+2023-12-18 13:57:07.999 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:57:08.003 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:08.072 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 73.2659ms
+2023-12-18 13:57:08.079 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:57:08.081 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:57:08.090 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 9.9216ms
+2023-12-18 13:57:08.332 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 252.4861ms
+2023-12-18 13:57:08.365 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:57:08.379 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:57:08.546 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 180.5717ms
+2023-12-18 13:58:29.266 +05:30 [INF] User profile is available. Using 'C:\Users\Kevin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 13:58:30.231 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 13:58:30.302 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 13:58:30.305 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 13:58:30.308 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 13:58:30.310 +05:30 [INF] Hosting environment: Development
+2023-12-18 13:58:30.311 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 13:58:36.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 13:58:45.346 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options) in C:\Users\Kevin\source\repos\WorldAPI\WorldAPI\Program.cs:line 54
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:58:49.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 12989.2944ms
+2023-12-18 13:58:50.544 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 13:58:50.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 13:58:50.731 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 185.5818ms
+2023-12-18 13:58:50.857 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 312.6113ms
+2023-12-18 13:58:51.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 13:58:51.276 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options) in C:\Users\Kevin\source\repos\WorldAPI\WorldAPI\Program.cs:line 54
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 13:58:51.294 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 26.1773ms
+2023-12-18 14:01:11.501 +05:30 [INF] User profile is available. Using 'C:\Users\Kevin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 14:01:11.976 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 14:01:12.049 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 14:01:12.051 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 14:01:12.055 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 14:01:12.056 +05:30 [INF] Hosting environment: Development
+2023-12-18 14:01:12.058 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 14:01:13.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 14:01:13.839 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 618.2494ms
+2023-12-18 14:01:13.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 14:01:14.409 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 14:01:14.409 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 14:01:14.411 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 538.5555ms
+2023-12-18 14:01:14.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 14:01:14.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 14:01:14.467 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 14:01:14.524 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 66.3366ms
+2023-12-18 14:01:14.637 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 14:01:14.639 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 14:01:14.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 202.5902ms
+2023-12-18 14:01:14.661 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 251.9146ms
+2023-12-18 14:01:14.679 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 211.6792ms
+2023-12-18 14:01:14.722 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 14:01:14.724 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 315.0947ms
+2023-12-18 14:01:14.992 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 14:01:15.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-18 14:01:15.082 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-18 14:01:15.087 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 52.3629ms
+2023-12-18 14:01:15.626 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:01:15.717 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 724.0793ms
+2023-12-18 14:03:08.718 +05:30 [INF] User profile is available. Using 'C:\Users\Kevin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 14:03:09.243 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 14:03:09.341 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 14:03:09.343 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 14:03:09.363 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 14:03:09.365 +05:30 [INF] Hosting environment: Development
+2023-12-18 14:03:09.366 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 14:03:13.145 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 14:03:42.582 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options) in C:\Users\Kevin\source\repos\WorldAPI\WorldAPI\Program.cs:line 54
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:03:43.536 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 500 - text/html;+charset=utf-8 30395.2065ms
+2023-12-18 14:03:44.738 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 14:03:44.738 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 14:03:44.749 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 10.4354ms
+2023-12-18 14:03:44.841 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 102.9571ms
+2023-12-18 14:03:45.418 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - -
+2023-12-18 14:03:45.425 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__2(JwtBearerOptions options) in C:\Users\Kevin\source\repos\WorldAPI\WorldAPI\Program.cs:line 54
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:03:45.442 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - - - 500 - text/plain;+charset=utf-8 23.6054ms
+2023-12-18 14:06:11.899 +05:30 [INF] User profile is available. Using 'C:\Users\Kevin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 14:06:12.763 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 14:06:12.890 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 14:06:12.894 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 14:06:12.897 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 14:06:12.899 +05:30 [INF] Hosting environment: Development
+2023-12-18 14:06:12.900 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 14:06:17.789 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 14:06:19.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 2119.1871ms
+2023-12-18 14:06:19.976 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 14:06:22.573 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2597.0754ms
+2023-12-18 14:06:22.592 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 14:06:22.592 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 14:06:22.907 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 14:06:22.907 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 14:06:22.923 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 14:06:22.939 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 32.3493ms
+2023-12-18 14:06:23.093 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 169.4698ms
+2023-12-18 14:06:23.510 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 14:06:23.512 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 919.5270ms
+2023-12-18 14:06:24.157 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 14:06:24.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1251.5057ms
+2023-12-18 14:06:29.149 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 14:06:29.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 6558.8045ms
+2023-12-18 14:06:31.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 14:06:33.404 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:06:34.409 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 2897.1564ms
+2023-12-18 14:06:51.731 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 14:06:51.763 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 31.7467ms
+2023-12-18 14:06:51.846 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 14:06:51.849 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 14:06:51.857 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 8.5072ms
+2023-12-18 14:06:51.987 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 140.6478ms
+2023-12-18 14:06:52.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 14:06:52.141 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:06:52.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 121.0293ms
+2023-12-18 14:06:52.516 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-18 14:06:52.542 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-18 14:06:52.554 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 38.0335ms
+2023-12-18 14:06:52.691 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 14:06:52.737 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 45.9939ms
+2023-12-18 14:06:52.744 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 14:06:52.745 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 14:06:52.793 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 45.8381ms
+2023-12-18 14:06:52.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 86.4519ms
+2023-12-18 14:06:52.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 14:06:52.885 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:06:52.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 37.2163ms
+2023-12-18 14:06:52.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-18 14:06:52.926 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 14:06:52.979 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-18 14:06:52.985 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 60.0568ms
+2023-12-18 14:06:53.069 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 142.6283ms
+2023-12-18 14:06:53.119 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 14:06:53.120 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 14:06:53.126 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 6.2009ms
+2023-12-18 14:06:53.184 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.9424ms
+2023-12-18 14:06:53.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 14:06:53.236 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:06:53.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 27.5493ms
+2023-12-18 14:07:21.870 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 14:07:21.885 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 15.1876ms
+2023-12-18 14:07:21.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 14:07:21.891 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 14:07:21.901 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 10.5983ms
+2023-12-18 14:07:21.968 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.6011ms
+2023-12-18 14:07:22.010 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 14:07:22.021 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:07:22.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 48.1646ms
+2023-12-18 14:07:22.184 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-18 14:07:22.185 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 14:07:22.288 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-18 14:07:22.295 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 110.8784ms
+2023-12-18 14:07:22.334 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-16x16.png - -
+2023-12-18 14:07:22.335 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 150.0258ms
+2023-12-18 14:07:22.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 14:07:22.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 14:07:22.419 +05:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2023-12-18 14:07:22.438 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 60.1774ms
+2023-12-18 14:07:22.439 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-16x16.png - - - 200 665 image/png 104.8914ms
+2023-12-18 14:07:22.515 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 139.5846ms
+2023-12-18 14:07:22.556 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 14:07:22.563 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 14:07:22.572 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 16.2829ms
+2023-12-18 14:07:22.590 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-18 14:07:22.595 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-18 14:07:22.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 21.6602ms
+2023-12-18 17:06:43.735 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 17:06:44.399 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 17:06:44.403 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 17:06:44.406 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 17:06:44.408 +05:30 [INF] Hosting environment: Development
+2023-12-18 17:06:44.409 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 17:07:00.729 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 17:07:01.098 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 303.8593ms
+2023-12-18 17:07:01.337 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 17:07:04.461 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 17:07:04.462 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 17:07:04.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 3135.3719ms
+2023-12-18 17:07:04.521 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 17:07:04.521 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 17:07:04.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 17:07:04.640 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 17:07:04.640 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 17:07:04.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 110.0323ms
+2023-12-18 17:07:04.668 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 146.6377ms
+2023-12-18 17:07:04.684 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 223.0692ms
+2023-12-18 17:07:04.695 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 17:07:04.699 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 237.4592ms
+2023-12-18 17:07:04.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 467.4708ms
+2023-12-18 17:07:05.229 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 17:07:05.952 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 17:07:07.201 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 1972.1318ms
+2023-12-18 17:10:30.684 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 17:10:31.898 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 17:10:31.902 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 17:10:31.906 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 17:10:31.907 +05:30 [INF] Hosting environment: Development
+2023-12-18 17:10:31.908 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 17:10:37.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 17:10:38.260 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 694.4814ms
+2023-12-18 17:10:38.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 17:10:40.511 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 17:10:40.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 17:10:40.569 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2084.5827ms
+2023-12-18 17:10:40.674 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 17:10:40.675 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 17:10:40.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 17:10:40.758 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 17:10:40.764 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 253.3829ms
+2023-12-18 17:10:40.800 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 17:10:40.814 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 101.5783ms
+2023-12-18 17:10:40.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 157.0394ms
+2023-12-18 17:10:40.856 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 180.8886ms
+2023-12-18 17:10:41.264 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 17:10:41.268 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 756.0156ms
+2023-12-18 17:10:41.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 17:10:42.580 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WorldAPI.Controllers.LoginController.MyMethod (WorldAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-18 17:10:43.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 1876.9311ms
+2023-12-18 17:22:57.090 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 17:22:57.582 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 17:22:57.586 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 17:22:57.590 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 17:22:57.592 +05:30 [INF] Hosting environment: Development
+2023-12-18 17:22:57.594 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 17:23:02.242 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 17:23:02.583 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 331.4517ms
+2023-12-18 17:23:02.651 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 17:23:04.148 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 17:23:04.148 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 17:23:04.155 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 1503.5724ms
+2023-12-18 17:23:04.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 17:23:04.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 17:23:04.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 17:23:04.229 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 24.3302ms
+2023-12-18 17:23:04.418 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 17:23:04.418 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 17:23:04.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 219.3834ms
+2023-12-18 17:23:04.432 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 284.4513ms
+2023-12-18 17:23:04.475 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 17:23:04.485 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 337.2020ms
+2023-12-18 17:23:04.633 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 428.6284ms
+2023-12-18 17:23:04.784 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 17:23:05.347 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 562.2969ms
+2023-12-18 17:23:15.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Country - -
+2023-12-18 17:23:15.155 +05:30 [INF] Executing endpoint 'WorldAPI.Controllers.CountryController.GetAll (WorldAPI)'
+2023-12-18 17:23:15.235 +05:30 [INF] Route matched with {action = "GetAll", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WorldAPI.DTO.Country.CountryDto]]] GetAll() on controller WorldAPI.Controllers.CountryController (WorldAPI).
+2023-12-18 17:23:22.262 +05:30 [INF] Executed DbCommand (233ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CountryCode], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2023-12-18 17:23:22.428 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WorldAPI.Models.Country, WorldAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-18 17:23:22.475 +05:30 [INF] Executed action WorldAPI.Controllers.CountryController.GetAll (WorldAPI) in 7230.9375ms
+2023-12-18 17:23:22.482 +05:30 [INF] Executed endpoint 'WorldAPI.Controllers.CountryController.GetAll (WorldAPI)'
+2023-12-18 17:23:22.496 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Country - - - 200 - application/json;+charset=utf-8 7353.1472ms
+2023-12-18 17:35:52.055 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 17:35:52.518 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 17:35:52.525 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 17:35:52.528 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 17:35:52.530 +05:30 [INF] Hosting environment: Development
+2023-12-18 17:35:52.531 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 17:36:01.813 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 17:36:02.174 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 342.4221ms
+2023-12-18 17:36:02.415 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 17:36:03.848 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 17:36:03.862 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 17:36:03.880 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 1464.9688ms
+2023-12-18 17:36:03.976 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 17:36:03.979 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 130.9494ms
+2023-12-18 17:36:04.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 17:36:04.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 17:36:04.008 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 17:36:04.024 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 16.2184ms
+2023-12-18 17:36:04.131 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 17:36:04.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 143.9240ms
+2023-12-18 17:36:04.233 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 225.9230ms
+2023-12-18 17:36:04.252 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 17:36:04.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 392.2517ms
+2023-12-18 17:36:04.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 17:36:05.289 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 713.6365ms
+2023-12-18 17:52:38.886 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 17:52:39.306 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 17:52:39.334 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 17:52:39.345 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 17:52:39.350 +05:30 [INF] Hosting environment: Development
+2023-12-18 17:52:39.359 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 17:52:51.951 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 17:52:52.617 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 610.5571ms
+2023-12-18 17:52:52.793 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 17:52:55.664 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2870.8357ms
+2023-12-18 17:52:55.692 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 17:52:55.731 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 17:52:56.203 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 17:52:56.275 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 17:52:56.277 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 584.9927ms
+2023-12-18 17:52:56.282 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 17:52:56.295 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 13.3524ms
+2023-12-18 17:52:56.422 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 17:52:56.441 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 238.6375ms
+2023-12-18 17:52:56.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 17:52:56.562 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.8252ms
+2023-12-18 17:52:57.702 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 17:52:57.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 1975.8993ms
+2023-12-18 17:53:00.793 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 17:53:02.549 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1756.2404ms
+2023-12-18 18:37:10.537 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 18:37:10.993 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 18:37:11.080 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 18:37:11.089 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 18:37:11.092 +05:30 [INF] Hosting environment: Development
+2023-12-18 18:37:11.095 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 18:37:16.267 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 18:37:16.883 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 571.1297ms
+2023-12-18 18:37:16.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 18:37:18.048 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 18:37:18.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 18:37:18.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 1180.0303ms
+2023-12-18 18:37:18.111 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 18:37:18.113 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 64.5553ms
+2023-12-18 18:37:18.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 18:37:18.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 18:37:18.119 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 18:37:18.143 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 23.9421ms
+2023-12-18 18:37:18.170 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 18:37:18.236 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 119.6736ms
+2023-12-18 18:37:18.367 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 18:37:18.390 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 334.8023ms
+2023-12-18 18:37:18.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 350.0753ms
+2023-12-18 18:37:18.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 18:37:19.213 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 536.7085ms
+2023-12-18 18:39:00.032 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 18:39:00.210 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 18:39:00.245 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 18:39:00.250 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 18:39:00.252 +05:30 [INF] Hosting environment: Development
+2023-12-18 18:39:00.253 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 18:39:01.360 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 18:39:01.518 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 163.0053ms
+2023-12-18 18:39:01.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 18:39:01.931 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 18:39:01.947 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 18:39:01.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 18:39:01.962 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 18:39:01.962 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 18:39:01.970 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 418.8453ms
+2023-12-18 18:39:02.010 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 47.8724ms
+2023-12-18 18:39:02.035 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 18:39:02.046 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 18:39:02.066 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 134.7121ms
+2023-12-18 18:39:02.080 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 130.8262ms
+2023-12-18 18:39:02.120 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 18:39:02.138 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 190.4976ms
+2023-12-18 18:39:02.206 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 244.8731ms
+2023-12-18 18:39:02.402 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 18:39:02.705 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 302.7025ms
+2023-12-18 18:46:09.357 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 18:46:10.626 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 18:46:10.652 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 18:46:10.656 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 18:46:10.658 +05:30 [INF] Hosting environment: Development
+2023-12-18 18:46:10.659 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 18:46:15.993 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 18:46:16.418 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 428.4007ms
+2023-12-18 18:46:16.453 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 18:46:17.787 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 18:46:17.788 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 18:46:17.803 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 1349.7116ms
+2023-12-18 18:46:17.929 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 18:46:17.929 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 18:46:17.936 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 18:46:17.937 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 18:46:17.938 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 151.3305ms
+2023-12-18 18:46:17.948 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 10.5756ms
+2023-12-18 18:46:18.027 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 18:46:18.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 103.4552ms
+2023-12-18 18:46:18.067 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 138.1365ms
+2023-12-18 18:46:18.306 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 18:46:18.312 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 524.5658ms
+2023-12-18 18:46:18.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 18:46:19.994 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1271.9167ms
+2023-12-18 18:49:50.438 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 18:49:50.925 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 18:49:50.978 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 18:49:51.348 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 18:49:51.351 +05:30 [INF] Hosting environment: Development
+2023-12-18 18:49:51.352 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 18:49:57.357 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 18:49:57.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 267.7928ms
+2023-12-18 18:49:57.669 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 18:49:59.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2287.1293ms
+2023-12-18 18:50:00.396 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 18:50:00.405 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 18:50:00.474 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 18:50:00.592 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 18:50:00.602 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 18:50:00.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 207.9242ms
+2023-12-18 18:50:00.626 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 152.1429ms
+2023-12-18 18:50:00.639 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 18:50:00.642 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 236.6509ms
+2023-12-18 18:50:00.659 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 18:50:00.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 9.9370ms
+2023-12-18 18:50:00.703 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 18:50:00.768 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.8533ms
+2023-12-18 18:50:01.733 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 18:50:01.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.2656ms
+2023-12-18 18:51:37.871 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 18:51:38.059 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 18:51:38.065 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 18:51:38.069 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 18:51:38.071 +05:30 [INF] Hosting environment: Development
+2023-12-18 18:51:38.072 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 18:51:39.231 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 18:51:39.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 177.1643ms
+2023-12-18 18:51:39.435 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 18:51:40.001 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 565.8194ms
+2023-12-18 18:51:40.002 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 18:51:40.002 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 18:51:40.039 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 18:51:40.039 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 18:51:40.048 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 18:51:40.087 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 47.9500ms
+2023-12-18 18:51:40.178 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 18:51:40.190 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 18:51:40.346 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 18:51:40.422 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 374.0829ms
+2023-12-18 18:51:40.426 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 424.4984ms
+2023-12-18 18:51:40.441 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 439.4003ms
+2023-12-18 18:51:40.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 405.1423ms
+2023-12-18 18:51:40.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 18:51:41.227 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 503.9569ms
+2023-12-18 18:53:52.268 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 18:53:53.072 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 18:53:53.085 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 18:53:53.091 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 18:53:53.100 +05:30 [INF] Hosting environment: Development
+2023-12-18 18:53:53.102 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 18:53:59.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 18:53:59.507 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 18:53:59.515 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 410.3534ms
+2023-12-18 18:54:01.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2448.6490ms
+2023-12-18 18:54:02.015 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 18:54:02.015 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 18:54:02.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 18:54:02.162 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 18:54:02.172 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 156.3111ms
+2023-12-18 18:54:02.278 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 18:54:02.290 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 251.4685ms
+2023-12-18 18:54:02.608 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 18:54:02.627 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 611.0851ms
+2023-12-18 18:54:03.177 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 18:54:03.194 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 17.3076ms
+2023-12-18 18:54:03.781 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 18:54:03.878 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 97.5192ms
+2023-12-18 18:54:06.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 18:54:07.474 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 596.1518ms
+2023-12-18 18:54:18.853 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Country - -
+2023-12-18 18:54:19.014 +05:30 [INF] Executing endpoint 'WorldAPI.Controllers.CountryController.GetAll (WorldAPI)'
+2023-12-18 18:54:19.477 +05:30 [INF] Route matched with {action = "GetAll", controller = "Country"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WorldAPI.DTO.Country.CountryDto]]] GetAll() on controller WorldAPI.Controllers.CountryController (WorldAPI).
+2023-12-18 18:54:32.125 +05:30 [INF] Executed DbCommand (1,263ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CountryCode], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2023-12-18 18:54:32.452 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WorldAPI.Models.Country, WorldAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-18 18:54:32.514 +05:30 [INF] Executed action WorldAPI.Controllers.CountryController.GetAll (WorldAPI) in 13005.5363ms
+2023-12-18 18:54:32.517 +05:30 [INF] Executed endpoint 'WorldAPI.Controllers.CountryController.GetAll (WorldAPI)'
+2023-12-18 18:54:32.532 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Country - - - 200 - application/json;+charset=utf-8 13678.9529ms
+2023-12-18 18:55:27.396 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 18:55:27.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 69.5022ms
+2023-12-18 18:55:28.358 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 18:55:28.359 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 18:55:28.364 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 18:55:28.436 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 18:55:28.447 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 89.2425ms
+2023-12-18 18:55:28.458 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 94.2574ms
+2023-12-18 18:55:28.983 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 624.6437ms
+2023-12-18 18:55:32.681 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 18:55:32.681 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-18 18:55:32.683 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-18 18:55:32.686 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 4.9895ms
+2023-12-18 18:55:32.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.6389ms
+2023-12-18 18:58:30.994 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 18:58:31.293 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 18:58:31.302 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 18:58:31.305 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 18:58:31.313 +05:30 [INF] Hosting environment: Development
+2023-12-18 18:58:31.315 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 18:58:36.567 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 18:58:37.923 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 1284.6684ms
+2023-12-18 18:58:37.948 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 18:58:45.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 7958.1645ms
+2023-12-18 18:58:46.178 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 18:58:46.179 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 18:58:46.484 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 18:58:46.487 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 308.8392ms
+2023-12-18 18:58:46.596 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 18:58:46.684 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 18:58:46.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 15.6071ms
+2023-12-18 18:58:46.711 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 18:58:46.713 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 116.5344ms
+2023-12-18 18:58:46.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 18:58:46.923 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 85.4705ms
+2023-12-18 18:58:47.053 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 18:58:47.056 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 876.9429ms
+2023-12-18 18:58:48.022 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 18:58:48.834 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 812.3424ms
+2023-12-18 19:08:01.403 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 19:08:01.761 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 19:08:01.770 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 19:08:01.782 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 19:08:01.784 +05:30 [INF] Hosting environment: Development
+2023-12-18 19:08:01.785 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 19:08:08.047 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 19:08:08.330 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 288.2551ms
+2023-12-18 19:08:08.465 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 19:08:10.513 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2048.0376ms
+2023-12-18 19:08:10.530 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 19:08:10.540 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 19:08:10.563 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 19:08:10.830 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 19:08:10.876 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 346.5906ms
+2023-12-18 19:08:10.937 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 19:08:10.940 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 377.3254ms
+2023-12-18 19:08:11.145 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 19:08:11.178 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 33.2409ms
+2023-12-18 19:08:11.239 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 19:08:11.312 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.4362ms
+2023-12-18 19:08:11.431 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 19:08:11.442 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 901.9721ms
+2023-12-18 19:08:13.448 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 19:08:14.316 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 867.9402ms
+2023-12-18 19:13:16.246 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 19:13:16.607 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 19:13:16.738 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 19:13:16.742 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 19:13:16.744 +05:30 [INF] Hosting environment: Development
+2023-12-18 19:13:16.745 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 19:13:24.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 19:13:25.462 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 1141.3588ms
+2023-12-18 19:13:25.697 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 19:13:28.376 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 2679.1508ms
+2023-12-18 19:13:28.422 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 19:13:28.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 19:13:28.577 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 19:13:28.733 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 19:13:28.793 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 370.3419ms
+2023-12-18 19:13:28.912 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 19:13:28.924 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 347.0018ms
+2023-12-18 19:13:28.980 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 19:13:28.990 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 9.7327ms
+2023-12-18 19:13:29.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 19:13:29.804 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 19:13:29.824 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 1396.9384ms
+2023-12-18 19:13:29.985 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 415.0030ms
+2023-12-18 19:13:35.106 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 19:13:37.547 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2441.0283ms
+2023-12-18 19:14:45.674 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 19:14:45.934 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 19:14:45.979 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 19:14:46.050 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 19:14:46.055 +05:30 [INF] Hosting environment: Development
+2023-12-18 19:14:46.092 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 19:14:50.588 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 19:14:51.056 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 475.6304ms
+2023-12-18 19:14:51.129 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 19:14:52.315 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 1185.5770ms
+2023-12-18 19:14:54.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 19:14:54.182 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 19:14:54.191 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 65.6881ms
+2023-12-18 19:14:54.219 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 19:14:54.272 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 19:14:54.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 59.3413ms
+2023-12-18 19:14:54.313 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 19:14:54.321 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 19:14:54.323 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 9.9479ms
+2023-12-18 19:14:55.332 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 19:14:55.349 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 16.9753ms
+2023-12-18 19:14:59.256 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 19:14:59.399 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 143.5340ms
+2023-12-18 19:15:05.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 19:15:06.386 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1070.7726ms
+2023-12-18 19:15:23.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/api/States - -
+2023-12-18 19:15:23.889 +05:30 [INF] Executing endpoint 'WorldAPI.Controllers.StatesController.GetAll (WorldAPI)'
+2023-12-18 19:15:24.002 +05:30 [INF] Route matched with {action = "GetAll", controller = "States"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WorldAPI.DTO.States.StatesDto]]] GetAll() on controller WorldAPI.Controllers.StatesController (WorldAPI).
+2023-12-18 19:15:31.822 +05:30 [INF] Executed DbCommand (321ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[CountryId], [s].[Name], [s].[Population]
+FROM [States] AS [s]
+2023-12-18 19:15:32.013 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WorldAPI.Models.States, WorldAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-18 19:15:32.141 +05:30 [INF] Executed action WorldAPI.Controllers.StatesController.GetAll (WorldAPI) in 8130.2056ms
+2023-12-18 19:15:32.149 +05:30 [INF] Executed endpoint 'WorldAPI.Controllers.StatesController.GetAll (WorldAPI)'
+2023-12-18 19:15:32.230 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/api/States - - - 200 - application/json;+charset=utf-8 8357.3448ms
+2023-12-18 19:18:37.098 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 19:18:37.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 100.9368ms
+2023-12-18 19:18:37.859 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 19:18:37.860 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 19:18:37.860 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 19:18:37.924 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 19:18:37.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 67.3905ms
+2023-12-18 19:18:38.120 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 260.9780ms
+2023-12-18 19:18:38.407 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 547.2161ms
+2023-12-18 19:18:39.937 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 19:18:39.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 19.3612ms
+2023-12-18 19:18:40.373 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - -
+2023-12-18 19:18:40.376 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-18 19:18:40.381 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - - - 200 628 image/png 7.5643ms
+2023-12-18 19:22:24.825 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 19:22:24.976 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 19:22:25.008 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 19:22:25.028 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 19:22:25.030 +05:30 [INF] Hosting environment: Development
+2023-12-18 19:22:25.032 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 19:22:27.455 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 19:22:27.693 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 242.3509ms
+2023-12-18 19:22:27.930 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 19:22:28.853 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 19:22:28.855 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 19:22:28.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 19:22:28.882 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 951.8058ms
+2023-12-18 19:22:29.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 19:22:29.092 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 19:22:29.124 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 19:22:29.139 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 45.2370ms
+2023-12-18 19:22:29.139 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 19:22:29.155 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 301.8731ms
+2023-12-18 19:22:29.162 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 304.6958ms
+2023-12-18 19:22:29.203 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 19:22:29.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 383.0690ms
+2023-12-18 19:22:29.576 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 486.8558ms
+2023-12-18 19:22:29.677 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 19:22:30.080 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 402.7333ms
+2023-12-18 19:28:16.063 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-12-18 19:28:16.797 +05:30 [INF] Now listening on: https://localhost:7215
+2023-12-18 19:28:16.810 +05:30 [INF] Now listening on: http://localhost:5246
+2023-12-18 19:28:16.814 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 19:28:16.816 +05:30 [INF] Hosting environment: Development
+2023-12-18 19:28:16.817 +05:30 [INF] Content root path: C:\Users\Kevin\source\repos\WorldAPI\WorldAPI
+2023-12-18 19:28:26.418 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger - -
+2023-12-18 19:28:27.009 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - -
+2023-12-18 19:28:27.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger - - - 301 0 - 971.0599ms
+2023-12-18 19:28:30.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - - - 200 - text/html;charset=utf-8 3459.4225ms
+2023-12-18 19:28:30.700 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - -
+2023-12-18 19:28:30.849 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-18 19:28:30.868 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - - - 200 144929 text/css 167.6946ms
+2023-12-18 19:28:31.493 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - -
+2023-12-18 19:28:31.590 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - -
+2023-12-18 19:28:31.744 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-18 19:28:31.751 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 160.7342ms
+2023-12-18 19:28:31.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2023-12-18 19:28:31.793 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 7.3292ms
+2023-12-18 19:28:32.120 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/_vs/browserLink - -
+2023-12-18 19:28:32.151 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-18 19:28:32.168 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 675.3357ms
+2023-12-18 19:28:32.207 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.2906ms
+2023-12-18 19:28:36.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - -
+2023-12-18 19:28:37.527 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1503.1734ms
